@@ -20,8 +20,12 @@ namespace tetrisCient
                 {
                     Game game = new Game("127.0.0.1", 8181);
                     game.Start();
+                    Console.WriteLine("GAME OVER. To restart press 'y'");
+                } else
+                {
+                    Console.WriteLine("Why do you press something else ? Press 'y' :) ");
                 }
-                Console.WriteLine("GAME OVER. To restart press 'y'");
+                
             }
         }
     }
